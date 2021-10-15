@@ -6,10 +6,12 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class Application {
     public static void main(String[] args) {
-        ApplicationContext applicationContext =
+        ApplicationContext context =
                 new AnnotationConfigApplicationContext(AppConfig.class);
+
         KoscheiTheDeathless koscheiTheDeathless =
-                applicationContext.getBean(KoscheiTheDeathless.class);
+                context.getBean(KoscheiTheDeathless.class);
+
         System.out.println(koscheiTheDeathless.getRulesByDeth());
     }
 }
