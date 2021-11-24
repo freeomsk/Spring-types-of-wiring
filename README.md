@@ -1,4 +1,4 @@
-## JM preproject. Practical task 2.1.4 (Spring)
+## Spring
 
 ### Условие:
 
